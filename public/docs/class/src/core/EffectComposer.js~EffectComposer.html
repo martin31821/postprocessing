@@ -110,13 +110,13 @@
 </nav>
 
 <div class="content" data-ice="content"><div class="header-notice">
-  <div data-ice="importPath" class="import-path"><pre class="prettyprint"><code data-ice="importPathCode">import {EffectComposer} from &apos;<span><a href="file/src/core/EffectComposer.js.html#lineNumber30">postprocessing</a></span>&apos;</code></pre></div>
+  <div data-ice="importPath" class="import-path"><pre class="prettyprint"><code data-ice="importPathCode">import {EffectComposer} from &apos;<span><a href="file/src/core/EffectComposer.js.html#lineNumber31">postprocessing</a></span>&apos;</code></pre></div>
   <span data-ice="access">public</span>
   <span data-ice="kind">class</span>
   
   
   
-  <span data-ice="source">| <span><a href="file/src/core/EffectComposer.js.html#lineNumber30">source</a></span></span>
+  <span data-ice="source">| <span><a href="file/src/core/EffectComposer.js.html#lineNumber31">source</a></span></span>
 </div>
 
 <div class="self-detail detail">
@@ -239,7 +239,7 @@ automatically clear the buffers and render a scene for further processing.</p>
           
           
           
-          <span class="code" data-ice="name"><span><a href="class/src/core/EffectComposer.js~EffectComposer.html#instance-method-createBuffer">createBuffer</a></span></span><span class="code" data-ice="signature">(depthBuffer: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a></span>, stencilBuffer: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a></span>, type: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a></span>): <span>WebGLRenderTarget</span></span>
+          <span class="code" data-ice="name"><span><a href="class/src/core/EffectComposer.js~EffectComposer.html#instance-method-createBuffer">createBuffer</a></span></span><span class="code" data-ice="signature">(depthBuffer: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a></span>, stencilBuffer: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a></span>, type: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a></span>, multisample: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a></span>): <span>WebGLRenderTarget</span></span>
         </p>
       </div>
       <div>
@@ -486,7 +486,7 @@ information is used.</p>
     <span class="right-info">
       
       
-      <span data-ice="source"><span><a href="file/src/core/EffectComposer.js.html#lineNumber42">source</a></span></span>
+      <span data-ice="source"><span><a href="file/src/core/EffectComposer.js.html#lineNumber44">source</a></span></span>
     </span>
   </h3>
 
@@ -537,6 +537,14 @@ information is used.</p>
 </td>
     </tr>
 <tr data-ice="property" data-depth="1">
+      <td data-ice="name" class="code" data-depth="1">options.multisample</td>
+      <td data-ice="type" class="code"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a></span></td>
+      <td data-ice="appendix"><ul><li>optional</li>
+<li>default: false</li></ul></td>
+      <td data-ice="description"><p>Whether to enable WebGL2 Multisample Render Targets between the render passes.</p>
+</td>
+    </tr>
+<tr data-ice="property" data-depth="1">
       <td data-ice="name" class="code" data-depth="1">options.frameBufferType</td>
       <td data-ice="type" class="code"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a></span></td>
       <td data-ice="appendix"><ul><li>optional</li></ul></td>
@@ -581,7 +589,7 @@ information is used.</p>
     <span class="right-info">
       
       
-      <span data-ice="source"><span><a href="file/src/core/EffectComposer.js.html#lineNumber287">source</a></span></span>
+      <span data-ice="source"><span><a href="file/src/core/EffectComposer.js.html#lineNumber294">source</a></span></span>
     </span>
   </h3>
 
@@ -645,11 +653,11 @@ information is used.</p>
     
     
     
-    <span class="code" data-ice="name">createBuffer</span><span class="code" data-ice="signature">(depthBuffer: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a></span>, stencilBuffer: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a></span>, type: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a></span>): <span>WebGLRenderTarget</span></span>
+    <span class="code" data-ice="name">createBuffer</span><span class="code" data-ice="signature">(depthBuffer: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a></span>, stencilBuffer: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a></span>, type: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a></span>, multisample: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a></span>): <span>WebGLRenderTarget</span></span>
     <span class="right-info">
       
       
-      <span data-ice="source"><span><a href="file/src/core/EffectComposer.js.html#lineNumber259">source</a></span></span>
+      <span data-ice="source"><span><a href="file/src/core/EffectComposer.js.html#lineNumber262">source</a></span></span>
     </span>
   </h3>
 
@@ -693,6 +701,13 @@ is not UnsignedByteType because RGBXXF buffers are not renderable.</p>
       <td data-ice="type" class="code"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a></span></td>
       <td data-ice="appendix"></td>
       <td data-ice="description"><p>The frame buffer type.</p>
+</td>
+    </tr>
+<tr data-ice="property" data-depth="0">
+      <td data-ice="name" class="code" data-depth="0">multisample</td>
+      <td data-ice="type" class="code"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">Boolean</a></span></td>
+      <td data-ice="appendix"></td>
+      <td data-ice="description"><p>Whether the render target should be multisampled.</p>
 </td>
     </tr>
 </tbody>
@@ -742,7 +757,7 @@ is not UnsignedByteType because RGBXXF buffers are not renderable.</p>
     <span class="right-info">
       
       
-      <span data-ice="source"><span><a href="file/src/core/EffectComposer.js.html#lineNumber535">source</a></span></span>
+      <span data-ice="source"><span><a href="file/src/core/EffectComposer.js.html#lineNumber542">source</a></span></span>
     </span>
   </h3>
 
@@ -788,7 +803,7 @@ also deletes the main frame buffers of this composer.</p>
     <span class="right-info">
       
       
-      <span data-ice="source"><span><a href="file/src/core/EffectComposer.js.html#lineNumber130">source</a></span></span>
+      <span data-ice="source"><span><a href="file/src/core/EffectComposer.js.html#lineNumber132">source</a></span></span>
     </span>
   </h3>
 
@@ -847,7 +862,7 @@ also deletes the main frame buffers of this composer.</p>
     <span class="right-info">
       
       
-      <span data-ice="source"><span><a href="file/src/core/EffectComposer.js.html#lineNumber358">source</a></span></span>
+      <span data-ice="source"><span><a href="file/src/core/EffectComposer.js.html#lineNumber365">source</a></span></span>
     </span>
   </h3>
 
@@ -908,7 +923,7 @@ also deletes the main frame buffers of this composer.</p>
     <span class="right-info">
       
       
-      <span data-ice="source"><span><a href="file/src/core/EffectComposer.js.html#lineNumber413">source</a></span></span>
+      <span data-ice="source"><span><a href="file/src/core/EffectComposer.js.html#lineNumber420">source</a></span></span>
     </span>
   </h3>
 
@@ -969,7 +984,7 @@ also deletes the main frame buffers of this composer.</p>
     <span class="right-info">
       
       
-      <span data-ice="source"><span><a href="file/src/core/EffectComposer.js.html#lineNumber179">source</a></span></span>
+      <span data-ice="source"><span><a href="file/src/core/EffectComposer.js.html#lineNumber181">source</a></span></span>
     </span>
   </h3>
 
@@ -1055,7 +1070,7 @@ take its place.</p>
     <span class="right-info">
       
       
-      <span data-ice="source"><span><a href="file/src/core/EffectComposer.js.html#lineNumber513">source</a></span></span>
+      <span data-ice="source"><span><a href="file/src/core/EffectComposer.js.html#lineNumber520">source</a></span></span>
     </span>
   </h3>
 
@@ -1099,7 +1114,7 @@ take its place.</p>
     <span class="right-info">
       
       
-      <span data-ice="source"><span><a href="file/src/core/EffectComposer.js.html#lineNumber481">source</a></span></span>
+      <span data-ice="source"><span><a href="file/src/core/EffectComposer.js.html#lineNumber488">source</a></span></span>
     </span>
   </h3>
 

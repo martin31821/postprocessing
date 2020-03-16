@@ -1,7 +1,7 @@
 {
   "type": "File",
   "start": 0,
-  "end": 495,
+  "end": 484,
   "loc": {
     "start": {
       "line": 1,
@@ -15,7 +15,7 @@
   "program": {
     "type": "Program",
     "start": 0,
-    "end": 495,
+    "end": 484,
     "loc": {
       "start": {
         "line": 1,
@@ -117,8 +117,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 43,
-        "end": 94,
+        "start": 42,
+        "end": 93,
         "loc": {
           "start": {
             "line": 2,
@@ -133,8 +133,8 @@
         "specifiers": [
           {
             "type": "ExportSpecifier",
-            "start": 52,
-            "end": 65,
+            "start": 51,
+            "end": 64,
             "loc": {
               "start": {
                 "line": 2,
@@ -147,8 +147,8 @@
             },
             "local": {
               "type": "Identifier",
-              "start": 52,
-              "end": 65,
+              "start": 51,
+              "end": 64,
               "loc": {
                 "start": {
                   "line": 2,
@@ -164,8 +164,8 @@
             },
             "exported": {
               "type": "Identifier",
-              "start": 52,
-              "end": 65,
+              "start": 51,
+              "end": 64,
               "loc": {
                 "start": {
                   "line": 2,
@@ -183,8 +183,8 @@
         ],
         "source": {
           "type": "StringLiteral",
-          "start": 73,
-          "end": 93,
+          "start": 72,
+          "end": 92,
           "loc": {
             "start": {
               "line": 2,
@@ -204,8 +204,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 96,
-        "end": 139,
+        "start": 94,
+        "end": 137,
         "loc": {
           "start": {
             "line": 3,
@@ -220,8 +220,8 @@
         "specifiers": [
           {
             "type": "ExportSpecifier",
-            "start": 105,
-            "end": 114,
+            "start": 103,
+            "end": 112,
             "loc": {
               "start": {
                 "line": 3,
@@ -234,8 +234,8 @@
             },
             "local": {
               "type": "Identifier",
-              "start": 105,
-              "end": 114,
+              "start": 103,
+              "end": 112,
               "loc": {
                 "start": {
                   "line": 3,
@@ -251,8 +251,8 @@
             },
             "exported": {
               "type": "Identifier",
-              "start": 105,
-              "end": 114,
+              "start": 103,
+              "end": 112,
               "loc": {
                 "start": {
                   "line": 3,
@@ -270,8 +270,8 @@
         ],
         "source": {
           "type": "StringLiteral",
-          "start": 122,
-          "end": 138,
+          "start": 120,
+          "end": 136,
           "loc": {
             "start": {
               "line": 3,
@@ -291,8 +291,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 141,
-        "end": 184,
+        "start": 138,
+        "end": 181,
         "loc": {
           "start": {
             "line": 4,
@@ -307,8 +307,8 @@
         "specifiers": [
           {
             "type": "ExportSpecifier",
-            "start": 150,
-            "end": 159,
+            "start": 147,
+            "end": 156,
             "loc": {
               "start": {
                 "line": 4,
@@ -321,8 +321,8 @@
             },
             "local": {
               "type": "Identifier",
-              "start": 150,
-              "end": 159,
+              "start": 147,
+              "end": 156,
               "loc": {
                 "start": {
                   "line": 4,
@@ -338,8 +338,8 @@
             },
             "exported": {
               "type": "Identifier",
-              "start": 150,
-              "end": 159,
+              "start": 147,
+              "end": 156,
               "loc": {
                 "start": {
                   "line": 4,
@@ -357,8 +357,8 @@
         ],
         "source": {
           "type": "StringLiteral",
-          "start": 167,
-          "end": 183,
+          "start": 164,
+          "end": 180,
           "loc": {
             "start": {
               "line": 4,
@@ -378,8 +378,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 186,
-        "end": 231,
+        "start": 182,
+        "end": 227,
         "loc": {
           "start": {
             "line": 5,
@@ -394,8 +394,8 @@
         "specifiers": [
           {
             "type": "ExportSpecifier",
-            "start": 195,
-            "end": 205,
+            "start": 191,
+            "end": 201,
             "loc": {
               "start": {
                 "line": 5,
@@ -408,8 +408,8 @@
             },
             "local": {
               "type": "Identifier",
-              "start": 195,
-              "end": 205,
+              "start": 191,
+              "end": 201,
               "loc": {
                 "start": {
                   "line": 5,
@@ -425,8 +425,8 @@
             },
             "exported": {
               "type": "Identifier",
-              "start": 195,
-              "end": 205,
+              "start": 191,
+              "end": 201,
               "loc": {
                 "start": {
                   "line": 5,
@@ -444,8 +444,8 @@
         ],
         "source": {
           "type": "StringLiteral",
-          "start": 213,
-          "end": 230,
+          "start": 209,
+          "end": 226,
           "loc": {
             "start": {
               "line": 5,
@@ -465,8 +465,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 233,
-        "end": 274,
+        "start": 228,
+        "end": 269,
         "loc": {
           "start": {
             "line": 6,
@@ -481,8 +481,8 @@
         "specifiers": [
           {
             "type": "ExportSpecifier",
-            "start": 242,
-            "end": 250,
+            "start": 237,
+            "end": 245,
             "loc": {
               "start": {
                 "line": 6,
@@ -495,8 +495,8 @@
             },
             "local": {
               "type": "Identifier",
-              "start": 242,
-              "end": 250,
+              "start": 237,
+              "end": 245,
               "loc": {
                 "start": {
                   "line": 6,
@@ -512,8 +512,8 @@
             },
             "exported": {
               "type": "Identifier",
-              "start": 242,
-              "end": 250,
+              "start": 237,
+              "end": 245,
               "loc": {
                 "start": {
                   "line": 6,
@@ -531,8 +531,8 @@
         ],
         "source": {
           "type": "StringLiteral",
-          "start": 258,
-          "end": 273,
+          "start": 253,
+          "end": 268,
           "loc": {
             "start": {
               "line": 6,
@@ -552,8 +552,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 276,
-        "end": 321,
+        "start": 270,
+        "end": 315,
         "loc": {
           "start": {
             "line": 7,
@@ -568,8 +568,8 @@
         "specifiers": [
           {
             "type": "ExportSpecifier",
-            "start": 285,
-            "end": 295,
+            "start": 279,
+            "end": 289,
             "loc": {
               "start": {
                 "line": 7,
@@ -582,8 +582,8 @@
             },
             "local": {
               "type": "Identifier",
-              "start": 285,
-              "end": 295,
+              "start": 279,
+              "end": 289,
               "loc": {
                 "start": {
                   "line": 7,
@@ -599,8 +599,8 @@
             },
             "exported": {
               "type": "Identifier",
-              "start": 285,
-              "end": 295,
+              "start": 279,
+              "end": 289,
               "loc": {
                 "start": {
                   "line": 7,
@@ -618,8 +618,8 @@
         ],
         "source": {
           "type": "StringLiteral",
-          "start": 303,
-          "end": 320,
+          "start": 297,
+          "end": 314,
           "loc": {
             "start": {
               "line": 7,
@@ -639,8 +639,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 323,
-        "end": 356,
+        "start": 316,
+        "end": 349,
         "loc": {
           "start": {
             "line": 8,
@@ -655,8 +655,8 @@
         "specifiers": [
           {
             "type": "ExportSpecifier",
-            "start": 332,
-            "end": 336,
+            "start": 325,
+            "end": 329,
             "loc": {
               "start": {
                 "line": 8,
@@ -669,8 +669,8 @@
             },
             "local": {
               "type": "Identifier",
-              "start": 332,
-              "end": 336,
+              "start": 325,
+              "end": 329,
               "loc": {
                 "start": {
                   "line": 8,
@@ -686,8 +686,8 @@
             },
             "exported": {
               "type": "Identifier",
-              "start": 332,
-              "end": 336,
+              "start": 325,
+              "end": 329,
               "loc": {
                 "start": {
                   "line": 8,
@@ -705,8 +705,8 @@
         ],
         "source": {
           "type": "StringLiteral",
-          "start": 344,
-          "end": 355,
+          "start": 337,
+          "end": 348,
           "loc": {
             "start": {
               "line": 8,
@@ -726,8 +726,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 358,
-        "end": 403,
+        "start": 350,
+        "end": 395,
         "loc": {
           "start": {
             "line": 9,
@@ -742,8 +742,8 @@
         "specifiers": [
           {
             "type": "ExportSpecifier",
-            "start": 367,
-            "end": 377,
+            "start": 359,
+            "end": 369,
             "loc": {
               "start": {
                 "line": 9,
@@ -756,8 +756,8 @@
             },
             "local": {
               "type": "Identifier",
-              "start": 367,
-              "end": 377,
+              "start": 359,
+              "end": 369,
               "loc": {
                 "start": {
                   "line": 9,
@@ -773,8 +773,8 @@
             },
             "exported": {
               "type": "Identifier",
-              "start": 367,
-              "end": 377,
+              "start": 359,
+              "end": 369,
               "loc": {
                 "start": {
                   "line": 9,
@@ -792,8 +792,8 @@
         ],
         "source": {
           "type": "StringLiteral",
-          "start": 385,
-          "end": 402,
+          "start": 377,
+          "end": 394,
           "loc": {
             "start": {
               "line": 9,
@@ -813,8 +813,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 405,
-        "end": 446,
+        "start": 396,
+        "end": 437,
         "loc": {
           "start": {
             "line": 10,
@@ -829,8 +829,8 @@
         "specifiers": [
           {
             "type": "ExportSpecifier",
-            "start": 414,
-            "end": 422,
+            "start": 405,
+            "end": 413,
             "loc": {
               "start": {
                 "line": 10,
@@ -843,8 +843,8 @@
             },
             "local": {
               "type": "Identifier",
-              "start": 414,
-              "end": 422,
+              "start": 405,
+              "end": 413,
               "loc": {
                 "start": {
                   "line": 10,
@@ -860,8 +860,8 @@
             },
             "exported": {
               "type": "Identifier",
-              "start": 414,
-              "end": 422,
+              "start": 405,
+              "end": 413,
               "loc": {
                 "start": {
                   "line": 10,
@@ -879,8 +879,8 @@
         ],
         "source": {
           "type": "StringLiteral",
-          "start": 430,
-          "end": 445,
+          "start": 421,
+          "end": 436,
           "loc": {
             "start": {
               "line": 10,
@@ -900,8 +900,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 448,
-        "end": 493,
+        "start": 438,
+        "end": 483,
         "loc": {
           "start": {
             "line": 11,
@@ -916,8 +916,8 @@
         "specifiers": [
           {
             "type": "ExportSpecifier",
-            "start": 457,
-            "end": 467,
+            "start": 447,
+            "end": 457,
             "loc": {
               "start": {
                 "line": 11,
@@ -930,8 +930,8 @@
             },
             "local": {
               "type": "Identifier",
-              "start": 457,
-              "end": 467,
+              "start": 447,
+              "end": 457,
               "loc": {
                 "start": {
                   "line": 11,
@@ -947,8 +947,8 @@
             },
             "exported": {
               "type": "Identifier",
-              "start": 457,
-              "end": 467,
+              "start": 447,
+              "end": 457,
               "loc": {
                 "start": {
                   "line": 11,
@@ -966,8 +966,8 @@
         ],
         "source": {
           "type": "StringLiteral",
-          "start": 475,
-          "end": 492,
+          "start": 465,
+          "end": 482,
           "loc": {
             "start": {
               "line": 11,
@@ -1188,8 +1188,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 43,
-      "end": 49,
+      "start": 42,
+      "end": 48,
       "loc": {
         "start": {
           "line": 2,
@@ -1213,8 +1213,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 50,
-      "end": 51,
+      "start": 49,
+      "end": 50,
       "loc": {
         "start": {
           "line": 2,
@@ -1239,8 +1239,8 @@
         "binop": null
       },
       "value": "ClearMaskPass",
-      "start": 52,
-      "end": 65,
+      "start": 51,
+      "end": 64,
       "loc": {
         "start": {
           "line": 2,
@@ -1264,8 +1264,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 66,
-      "end": 67,
+      "start": 65,
+      "end": 66,
       "loc": {
         "start": {
           "line": 2,
@@ -1290,8 +1290,8 @@
         "binop": null
       },
       "value": "from",
-      "start": 68,
-      "end": 72,
+      "start": 67,
+      "end": 71,
       "loc": {
         "start": {
           "line": 2,
@@ -1317,8 +1317,8 @@
         "updateContext": null
       },
       "value": "./ClearMaskPass.js",
-      "start": 73,
-      "end": 93,
+      "start": 72,
+      "end": 92,
       "loc": {
         "start": {
           "line": 2,
@@ -1343,8 +1343,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 93,
-      "end": 94,
+      "start": 92,
+      "end": 93,
       "loc": {
         "start": {
           "line": 2,
@@ -1371,8 +1371,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 96,
-      "end": 102,
+      "start": 94,
+      "end": 100,
       "loc": {
         "start": {
           "line": 3,
@@ -1396,8 +1396,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 103,
-      "end": 104,
+      "start": 101,
+      "end": 102,
       "loc": {
         "start": {
           "line": 3,
@@ -1422,8 +1422,8 @@
         "binop": null
       },
       "value": "ClearPass",
-      "start": 105,
-      "end": 114,
+      "start": 103,
+      "end": 112,
       "loc": {
         "start": {
           "line": 3,
@@ -1447,8 +1447,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 115,
-      "end": 116,
+      "start": 113,
+      "end": 114,
       "loc": {
         "start": {
           "line": 3,
@@ -1473,8 +1473,8 @@
         "binop": null
       },
       "value": "from",
-      "start": 117,
-      "end": 121,
+      "start": 115,
+      "end": 119,
       "loc": {
         "start": {
           "line": 3,
@@ -1500,8 +1500,8 @@
         "updateContext": null
       },
       "value": "./ClearPass.js",
-      "start": 122,
-      "end": 138,
+      "start": 120,
+      "end": 136,
       "loc": {
         "start": {
           "line": 3,
@@ -1526,8 +1526,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 138,
-      "end": 139,
+      "start": 136,
+      "end": 137,
       "loc": {
         "start": {
           "line": 3,
@@ -1554,8 +1554,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 141,
-      "end": 147,
+      "start": 138,
+      "end": 144,
       "loc": {
         "start": {
           "line": 4,
@@ -1579,8 +1579,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 148,
-      "end": 149,
+      "start": 145,
+      "end": 146,
       "loc": {
         "start": {
           "line": 4,
@@ -1605,8 +1605,8 @@
         "binop": null
       },
       "value": "DepthPass",
-      "start": 150,
-      "end": 159,
+      "start": 147,
+      "end": 156,
       "loc": {
         "start": {
           "line": 4,
@@ -1630,8 +1630,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 160,
-      "end": 161,
+      "start": 157,
+      "end": 158,
       "loc": {
         "start": {
           "line": 4,
@@ -1656,8 +1656,8 @@
         "binop": null
       },
       "value": "from",
-      "start": 162,
-      "end": 166,
+      "start": 159,
+      "end": 163,
       "loc": {
         "start": {
           "line": 4,
@@ -1683,8 +1683,8 @@
         "updateContext": null
       },
       "value": "./DepthPass.js",
-      "start": 167,
-      "end": 183,
+      "start": 164,
+      "end": 180,
       "loc": {
         "start": {
           "line": 4,
@@ -1709,8 +1709,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 183,
-      "end": 184,
+      "start": 180,
+      "end": 181,
       "loc": {
         "start": {
           "line": 4,
@@ -1737,8 +1737,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 186,
-      "end": 192,
+      "start": 182,
+      "end": 188,
       "loc": {
         "start": {
           "line": 5,
@@ -1762,8 +1762,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 193,
-      "end": 194,
+      "start": 189,
+      "end": 190,
       "loc": {
         "start": {
           "line": 5,
@@ -1788,8 +1788,8 @@
         "binop": null
       },
       "value": "EffectPass",
-      "start": 195,
-      "end": 205,
+      "start": 191,
+      "end": 201,
       "loc": {
         "start": {
           "line": 5,
@@ -1813,8 +1813,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 206,
-      "end": 207,
+      "start": 202,
+      "end": 203,
       "loc": {
         "start": {
           "line": 5,
@@ -1839,8 +1839,8 @@
         "binop": null
       },
       "value": "from",
-      "start": 208,
-      "end": 212,
+      "start": 204,
+      "end": 208,
       "loc": {
         "start": {
           "line": 5,
@@ -1866,8 +1866,8 @@
         "updateContext": null
       },
       "value": "./EffectPass.js",
-      "start": 213,
-      "end": 230,
+      "start": 209,
+      "end": 226,
       "loc": {
         "start": {
           "line": 5,
@@ -1892,8 +1892,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 230,
-      "end": 231,
+      "start": 226,
+      "end": 227,
       "loc": {
         "start": {
           "line": 5,
@@ -1920,8 +1920,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 233,
-      "end": 239,
+      "start": 228,
+      "end": 234,
       "loc": {
         "start": {
           "line": 6,
@@ -1945,8 +1945,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 240,
-      "end": 241,
+      "start": 235,
+      "end": 236,
       "loc": {
         "start": {
           "line": 6,
@@ -1971,8 +1971,8 @@
         "binop": null
       },
       "value": "MaskPass",
-      "start": 242,
-      "end": 250,
+      "start": 237,
+      "end": 245,
       "loc": {
         "start": {
           "line": 6,
@@ -1996,8 +1996,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 251,
-      "end": 252,
+      "start": 246,
+      "end": 247,
       "loc": {
         "start": {
           "line": 6,
@@ -2022,8 +2022,8 @@
         "binop": null
       },
       "value": "from",
-      "start": 253,
-      "end": 257,
+      "start": 248,
+      "end": 252,
       "loc": {
         "start": {
           "line": 6,
@@ -2049,8 +2049,8 @@
         "updateContext": null
       },
       "value": "./MaskPass.js",
-      "start": 258,
-      "end": 273,
+      "start": 253,
+      "end": 268,
       "loc": {
         "start": {
           "line": 6,
@@ -2075,8 +2075,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 273,
-      "end": 274,
+      "start": 268,
+      "end": 269,
       "loc": {
         "start": {
           "line": 6,
@@ -2103,8 +2103,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 276,
-      "end": 282,
+      "start": 270,
+      "end": 276,
       "loc": {
         "start": {
           "line": 7,
@@ -2128,8 +2128,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 283,
-      "end": 284,
+      "start": 277,
+      "end": 278,
       "loc": {
         "start": {
           "line": 7,
@@ -2154,8 +2154,8 @@
         "binop": null
       },
       "value": "NormalPass",
-      "start": 285,
-      "end": 295,
+      "start": 279,
+      "end": 289,
       "loc": {
         "start": {
           "line": 7,
@@ -2179,8 +2179,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 296,
-      "end": 297,
+      "start": 290,
+      "end": 291,
       "loc": {
         "start": {
           "line": 7,
@@ -2205,8 +2205,8 @@
         "binop": null
       },
       "value": "from",
-      "start": 298,
-      "end": 302,
+      "start": 292,
+      "end": 296,
       "loc": {
         "start": {
           "line": 7,
@@ -2232,8 +2232,8 @@
         "updateContext": null
       },
       "value": "./NormalPass.js",
-      "start": 303,
-      "end": 320,
+      "start": 297,
+      "end": 314,
       "loc": {
         "start": {
           "line": 7,
@@ -2258,8 +2258,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 320,
-      "end": 321,
+      "start": 314,
+      "end": 315,
       "loc": {
         "start": {
           "line": 7,
@@ -2286,8 +2286,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 323,
-      "end": 329,
+      "start": 316,
+      "end": 322,
       "loc": {
         "start": {
           "line": 8,
@@ -2311,8 +2311,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 330,
-      "end": 331,
+      "start": 323,
+      "end": 324,
       "loc": {
         "start": {
           "line": 8,
@@ -2337,8 +2337,8 @@
         "binop": null
       },
       "value": "Pass",
-      "start": 332,
-      "end": 336,
+      "start": 325,
+      "end": 329,
       "loc": {
         "start": {
           "line": 8,
@@ -2362,8 +2362,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 337,
-      "end": 338,
+      "start": 330,
+      "end": 331,
       "loc": {
         "start": {
           "line": 8,
@@ -2388,8 +2388,8 @@
         "binop": null
       },
       "value": "from",
-      "start": 339,
-      "end": 343,
+      "start": 332,
+      "end": 336,
       "loc": {
         "start": {
           "line": 8,
@@ -2415,8 +2415,8 @@
         "updateContext": null
       },
       "value": "./Pass.js",
-      "start": 344,
-      "end": 355,
+      "start": 337,
+      "end": 348,
       "loc": {
         "start": {
           "line": 8,
@@ -2441,8 +2441,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 355,
-      "end": 356,
+      "start": 348,
+      "end": 349,
       "loc": {
         "start": {
           "line": 8,
@@ -2469,8 +2469,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 358,
-      "end": 364,
+      "start": 350,
+      "end": 356,
       "loc": {
         "start": {
           "line": 9,
@@ -2494,8 +2494,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 365,
-      "end": 366,
+      "start": 357,
+      "end": 358,
       "loc": {
         "start": {
           "line": 9,
@@ -2520,8 +2520,8 @@
         "binop": null
       },
       "value": "RenderPass",
-      "start": 367,
-      "end": 377,
+      "start": 359,
+      "end": 369,
       "loc": {
         "start": {
           "line": 9,
@@ -2545,8 +2545,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 378,
-      "end": 379,
+      "start": 370,
+      "end": 371,
       "loc": {
         "start": {
           "line": 9,
@@ -2571,8 +2571,8 @@
         "binop": null
       },
       "value": "from",
-      "start": 380,
-      "end": 384,
+      "start": 372,
+      "end": 376,
       "loc": {
         "start": {
           "line": 9,
@@ -2598,8 +2598,8 @@
         "updateContext": null
       },
       "value": "./RenderPass.js",
-      "start": 385,
-      "end": 402,
+      "start": 377,
+      "end": 394,
       "loc": {
         "start": {
           "line": 9,
@@ -2624,8 +2624,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 402,
-      "end": 403,
+      "start": 394,
+      "end": 395,
       "loc": {
         "start": {
           "line": 9,
@@ -2652,8 +2652,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 405,
-      "end": 411,
+      "start": 396,
+      "end": 402,
       "loc": {
         "start": {
           "line": 10,
@@ -2677,8 +2677,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 412,
-      "end": 413,
+      "start": 403,
+      "end": 404,
       "loc": {
         "start": {
           "line": 10,
@@ -2703,8 +2703,8 @@
         "binop": null
       },
       "value": "SavePass",
-      "start": 414,
-      "end": 422,
+      "start": 405,
+      "end": 413,
       "loc": {
         "start": {
           "line": 10,
@@ -2728,8 +2728,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 423,
-      "end": 424,
+      "start": 414,
+      "end": 415,
       "loc": {
         "start": {
           "line": 10,
@@ -2754,8 +2754,8 @@
         "binop": null
       },
       "value": "from",
-      "start": 425,
-      "end": 429,
+      "start": 416,
+      "end": 420,
       "loc": {
         "start": {
           "line": 10,
@@ -2781,8 +2781,8 @@
         "updateContext": null
       },
       "value": "./SavePass.js",
-      "start": 430,
-      "end": 445,
+      "start": 421,
+      "end": 436,
       "loc": {
         "start": {
           "line": 10,
@@ -2807,8 +2807,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 445,
-      "end": 446,
+      "start": 436,
+      "end": 437,
       "loc": {
         "start": {
           "line": 10,
@@ -2835,8 +2835,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 448,
-      "end": 454,
+      "start": 438,
+      "end": 444,
       "loc": {
         "start": {
           "line": 11,
@@ -2860,8 +2860,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 455,
-      "end": 456,
+      "start": 445,
+      "end": 446,
       "loc": {
         "start": {
           "line": 11,
@@ -2886,8 +2886,8 @@
         "binop": null
       },
       "value": "ShaderPass",
-      "start": 457,
-      "end": 467,
+      "start": 447,
+      "end": 457,
       "loc": {
         "start": {
           "line": 11,
@@ -2911,8 +2911,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 468,
-      "end": 469,
+      "start": 458,
+      "end": 459,
       "loc": {
         "start": {
           "line": 11,
@@ -2937,8 +2937,8 @@
         "binop": null
       },
       "value": "from",
-      "start": 470,
-      "end": 474,
+      "start": 460,
+      "end": 464,
       "loc": {
         "start": {
           "line": 11,
@@ -2964,8 +2964,8 @@
         "updateContext": null
       },
       "value": "./ShaderPass.js",
-      "start": 475,
-      "end": 492,
+      "start": 465,
+      "end": 482,
       "loc": {
         "start": {
           "line": 11,
@@ -2990,8 +2990,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 492,
-      "end": 493,
+      "start": 482,
+      "end": 483,
       "loc": {
         "start": {
           "line": 11,
@@ -3016,8 +3016,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 495,
-      "end": 495,
+      "start": 484,
+      "end": 484,
       "loc": {
         "start": {
           "line": 12,

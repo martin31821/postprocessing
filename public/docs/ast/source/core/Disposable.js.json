@@ -1,7 +1,7 @@
 {
   "type": "File",
   "start": 0,
-  "end": 219,
+  "end": 202,
   "loc": {
     "start": {
       "line": 1,
@@ -15,7 +15,7 @@
   "program": {
     "type": "Program",
     "start": 0,
-    "end": 219,
+    "end": 202,
     "loc": {
       "start": {
         "line": 1,
@@ -30,8 +30,8 @@
     "body": [
       {
         "type": "ExportNamedDeclaration",
-        "start": 125,
-        "end": 217,
+        "start": 117,
+        "end": 201,
         "loc": {
           "start": {
             "line": 9,
@@ -46,8 +46,8 @@
         "source": null,
         "declaration": {
           "type": "ClassDeclaration",
-          "start": 132,
-          "end": 217,
+          "start": 124,
+          "end": 201,
           "loc": {
             "start": {
               "line": 9,
@@ -60,8 +60,8 @@
           },
           "id": {
             "type": "Identifier",
-            "start": 138,
-            "end": 148,
+            "start": 130,
+            "end": 140,
             "loc": {
               "start": {
                 "line": 9,
@@ -79,8 +79,8 @@
           "superClass": null,
           "body": {
             "type": "ClassBody",
-            "start": 149,
-            "end": 217,
+            "start": 141,
+            "end": 201,
             "loc": {
               "start": {
                 "line": 9,
@@ -94,8 +94,8 @@
             "body": [
               {
                 "type": "ClassMethod",
-                "start": 200,
-                "end": 212,
+                "start": 186,
+                "end": 198,
                 "loc": {
                   "start": {
                     "line": 15,
@@ -110,8 +110,8 @@
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 200,
-                  "end": 207,
+                  "start": 186,
+                  "end": 193,
                   "loc": {
                     "start": {
                       "line": 15,
@@ -134,8 +134,8 @@
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
-                  "start": 210,
-                  "end": 212,
+                  "start": 196,
+                  "end": 198,
                   "loc": {
                     "start": {
                       "line": 15,
@@ -152,9 +152,9 @@
                 "leadingComments": [
                   {
                     "type": "CommentBlock",
-                    "value": "*\r\n\t * Frees internal resources.\r\n\t ",
-                    "start": 155,
-                    "end": 195,
+                    "value": "*\n\t * Frees internal resources.\n\t ",
+                    "start": 145,
+                    "end": 183,
                     "loc": {
                       "start": {
                         "line": 11,
@@ -173,9 +173,9 @@
           "leadingComments": [
             {
               "type": "CommentBlock",
-              "value": "*\r\n * The Disposable contract.\r\n *\r\n * Implemented by objects that can free internal resources.\r\n *\r\n * @interface\r\n ",
+              "value": "*\n * The Disposable contract.\n *\n * Implemented by objects that can free internal resources.\n *\n * @interface\n ",
               "start": 0,
-              "end": 121,
+              "end": 115,
               "loc": {
                 "start": {
                   "line": 1,
@@ -193,9 +193,9 @@
         "leadingComments": [
           {
             "type": "CommentBlock",
-            "value": "*\r\n * The Disposable contract.\r\n *\r\n * Implemented by objects that can free internal resources.\r\n *\r\n * @interface\r\n ",
+            "value": "*\n * The Disposable contract.\n *\n * Implemented by objects that can free internal resources.\n *\n * @interface\n ",
             "start": 0,
-            "end": 121,
+            "end": 115,
             "loc": {
               "start": {
                 "line": 1,
@@ -215,9 +215,9 @@
   "comments": [
     {
       "type": "CommentBlock",
-      "value": "*\r\n * The Disposable contract.\r\n *\r\n * Implemented by objects that can free internal resources.\r\n *\r\n * @interface\r\n ",
+      "value": "*\n * The Disposable contract.\n *\n * Implemented by objects that can free internal resources.\n *\n * @interface\n ",
       "start": 0,
-      "end": 121,
+      "end": 115,
       "loc": {
         "start": {
           "line": 1,
@@ -231,9 +231,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n\t * Frees internal resources.\r\n\t ",
-      "start": 155,
-      "end": 195,
+      "value": "*\n\t * Frees internal resources.\n\t ",
+      "start": 145,
+      "end": 183,
       "loc": {
         "start": {
           "line": 11,
@@ -249,9 +249,9 @@
   "tokens": [
     {
       "type": "CommentBlock",
-      "value": "*\r\n * The Disposable contract.\r\n *\r\n * Implemented by objects that can free internal resources.\r\n *\r\n * @interface\r\n ",
+      "value": "*\n * The Disposable contract.\n *\n * Implemented by objects that can free internal resources.\n *\n * @interface\n ",
       "start": 0,
-      "end": 121,
+      "end": 115,
       "loc": {
         "start": {
           "line": 1,
@@ -278,8 +278,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 125,
-      "end": 131,
+      "start": 117,
+      "end": 123,
       "loc": {
         "start": {
           "line": 9,
@@ -306,8 +306,8 @@
         "updateContext": null
       },
       "value": "class",
-      "start": 132,
-      "end": 137,
+      "start": 124,
+      "end": 129,
       "loc": {
         "start": {
           "line": 9,
@@ -332,8 +332,8 @@
         "binop": null
       },
       "value": "Disposable",
-      "start": 138,
-      "end": 148,
+      "start": 130,
+      "end": 140,
       "loc": {
         "start": {
           "line": 9,
@@ -357,8 +357,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 149,
-      "end": 150,
+      "start": 141,
+      "end": 142,
       "loc": {
         "start": {
           "line": 9,
@@ -372,9 +372,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n\t * Frees internal resources.\r\n\t ",
-      "start": 155,
-      "end": 195,
+      "value": "*\n\t * Frees internal resources.\n\t ",
+      "start": 145,
+      "end": 183,
       "loc": {
         "start": {
           "line": 11,
@@ -399,8 +399,8 @@
         "binop": null
       },
       "value": "dispose",
-      "start": 200,
-      "end": 207,
+      "start": 186,
+      "end": 193,
       "loc": {
         "start": {
           "line": 15,
@@ -424,8 +424,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 207,
-      "end": 208,
+      "start": 193,
+      "end": 194,
       "loc": {
         "start": {
           "line": 15,
@@ -449,8 +449,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 208,
-      "end": 209,
+      "start": 194,
+      "end": 195,
       "loc": {
         "start": {
           "line": 15,
@@ -474,8 +474,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 210,
-      "end": 211,
+      "start": 196,
+      "end": 197,
       "loc": {
         "start": {
           "line": 15,
@@ -499,8 +499,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 211,
-      "end": 212,
+      "start": 197,
+      "end": 198,
       "loc": {
         "start": {
           "line": 15,
@@ -524,8 +524,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 216,
-      "end": 217,
+      "start": 200,
+      "end": 201,
       "loc": {
         "start": {
           "line": 17,
@@ -550,8 +550,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 219,
-      "end": 219,
+      "start": 202,
+      "end": 202,
       "loc": {
         "start": {
           "line": 18,

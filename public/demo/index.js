@@ -33677,7 +33677,7 @@
 
   var GUI$1 = GUI;
   /**
-   * three-demo v3.17.0 build Mon Mar 02 2020
+   * three-demo v3.16.0 build Sun Feb 02 2020
    * https://github.com/vanruesc/three-demo
    * Copyright 2020 Raoul van Rüschen
    * @license Zlib
@@ -36385,6 +36385,8 @@
           depthBuffer = _ref8$depthBuffer === void 0 ? true : _ref8$depthBuffer,
           _ref8$stencilBuffer = _ref8.stencilBuffer,
           stencilBuffer = _ref8$stencilBuffer === void 0 ? false : _ref8$stencilBuffer,
+          _ref8$multisample = _ref8.multisample,
+          multisample = _ref8$multisample === void 0 ? false : _ref8$multisample,
           frameBufferType = _ref8.frameBufferType;
 
       _classCallCheck(this, EffectComposer);
@@ -36395,7 +36397,7 @@
 
       if (this.renderer !== null) {
         this.renderer.autoClear = false;
-        this.inputBuffer = this.createBuffer(depthBuffer, stencilBuffer, frameBufferType);
+        this.inputBuffer = this.createBuffer(depthBuffer, stencilBuffer, frameBufferType, multisample);
         this.outputBuffer = this.inputBuffer.clone();
         this.enableExtensions();
       }
@@ -36469,17 +36471,18 @@
       }
     }, {
       key: "createBuffer",
-      value: function createBuffer(depthBuffer, stencilBuffer, type) {
-        var drawingBufferSize = this.renderer.getDrawingBufferSize(new Vector2());
+      value: function createBuffer(depthBuffer, stencilBuffer, type, multisample) {
+        var size = this.renderer.getDrawingBufferSize(new Vector2());
         var alpha = this.renderer.getContext().getContextAttributes().alpha;
-        var renderTarget = new WebGLRenderTarget(drawingBufferSize.width, drawingBufferSize.height, {
+        var options = {
           format: alpha || type !== UnsignedByteType ? RGBAFormat : RGBFormat,
           minFilter: LinearFilter,
           magFilter: LinearFilter,
           stencilBuffer: stencilBuffer,
           depthBuffer: depthBuffer,
           type: type
-        });
+        };
+        var renderTarget = multisample ? new WebGLMultisampleRenderTarget(size.width, size.height, options) : new WebGLRenderTarget(size.width, size.height, options);
         renderTarget.texture.name = "EffectComposer.Buffer";
         renderTarget.texture.generateMipmaps = false;
         return renderTarget;

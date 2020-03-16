@@ -1,7 +1,7 @@
 {
   "type": "File",
   "start": 0,
-  "end": 267,
+  "end": 263,
   "loc": {
     "start": {
       "line": 1,
@@ -15,7 +15,7 @@
   "program": {
     "type": "Program",
     "start": 0,
-    "end": 267,
+    "end": 263,
     "loc": {
       "start": {
         "line": 1,
@@ -117,8 +117,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 68,
-        "end": 138,
+        "start": 67,
+        "end": 137,
         "loc": {
           "start": {
             "line": 2,
@@ -133,8 +133,8 @@
         "specifiers": [
           {
             "type": "ExportSpecifier",
-            "start": 77,
-            "end": 94,
+            "start": 76,
+            "end": 93,
             "loc": {
               "start": {
                 "line": 2,
@@ -147,8 +147,8 @@
             },
             "local": {
               "type": "Identifier",
-              "start": 77,
-              "end": 94,
+              "start": 76,
+              "end": 93,
               "loc": {
                 "start": {
                   "line": 2,
@@ -164,8 +164,8 @@
             },
             "exported": {
               "type": "Identifier",
-              "start": 77,
-              "end": 94,
+              "start": 76,
+              "end": 93,
               "loc": {
                 "start": {
                   "line": 2,
@@ -183,8 +183,8 @@
         ],
         "source": {
           "type": "StringLiteral",
-          "start": 102,
-          "end": 137,
+          "start": 101,
+          "end": 136,
           "loc": {
             "start": {
               "line": 2,
@@ -204,8 +204,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 140,
-        "end": 214,
+        "start": 138,
+        "end": 212,
         "loc": {
           "start": {
             "line": 3,
@@ -220,8 +220,8 @@
         "specifiers": [
           {
             "type": "ExportSpecifier",
-            "start": 149,
-            "end": 168,
+            "start": 147,
+            "end": 166,
             "loc": {
               "start": {
                 "line": 3,
@@ -234,8 +234,8 @@
             },
             "local": {
               "type": "Identifier",
-              "start": 149,
-              "end": 168,
+              "start": 147,
+              "end": 166,
               "loc": {
                 "start": {
                   "line": 3,
@@ -251,8 +251,8 @@
             },
             "exported": {
               "type": "Identifier",
-              "start": 149,
-              "end": 168,
+              "start": 147,
+              "end": 166,
               "loc": {
                 "start": {
                   "line": 3,
@@ -270,8 +270,8 @@
         ],
         "source": {
           "type": "StringLiteral",
-          "start": 176,
-          "end": 213,
+          "start": 174,
+          "end": 211,
           "loc": {
             "start": {
               "line": 3,
@@ -291,8 +291,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 216,
-        "end": 265,
+        "start": 213,
+        "end": 262,
         "loc": {
           "start": {
             "line": 4,
@@ -307,8 +307,8 @@
         "specifiers": [
           {
             "type": "ExportSpecifier",
-            "start": 225,
-            "end": 237,
+            "start": 222,
+            "end": 234,
             "loc": {
               "start": {
                 "line": 4,
@@ -321,8 +321,8 @@
             },
             "local": {
               "type": "Identifier",
-              "start": 225,
-              "end": 237,
+              "start": 222,
+              "end": 234,
               "loc": {
                 "start": {
                   "line": 4,
@@ -338,8 +338,8 @@
             },
             "exported": {
               "type": "Identifier",
-              "start": 225,
-              "end": 237,
+              "start": 222,
+              "end": 234,
               "loc": {
                 "start": {
                   "line": 4,
@@ -357,8 +357,8 @@
         ],
         "source": {
           "type": "StringLiteral",
-          "start": 245,
-          "end": 264,
+          "start": 242,
+          "end": 261,
           "loc": {
             "start": {
               "line": 4,
@@ -579,8 +579,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 68,
-      "end": 74,
+      "start": 67,
+      "end": 73,
       "loc": {
         "start": {
           "line": 2,
@@ -604,8 +604,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 75,
-      "end": 76,
+      "start": 74,
+      "end": 75,
       "loc": {
         "start": {
           "line": 2,
@@ -630,8 +630,8 @@
         "binop": null
       },
       "value": "SMAAAreaImageData",
-      "start": 77,
-      "end": 94,
+      "start": 76,
+      "end": 93,
       "loc": {
         "start": {
           "line": 2,
@@ -655,8 +655,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 95,
-      "end": 96,
+      "start": 94,
+      "end": 95,
       "loc": {
         "start": {
           "line": 2,
@@ -681,8 +681,8 @@
         "binop": null
       },
       "value": "from",
-      "start": 97,
-      "end": 101,
+      "start": 96,
+      "end": 100,
       "loc": {
         "start": {
           "line": 2,
@@ -708,8 +708,8 @@
         "updateContext": null
       },
       "value": "./smaa/utils/SMAAAreaImageData.js",
-      "start": 102,
-      "end": 137,
+      "start": 101,
+      "end": 136,
       "loc": {
         "start": {
           "line": 2,
@@ -734,8 +734,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 137,
-      "end": 138,
+      "start": 136,
+      "end": 137,
       "loc": {
         "start": {
           "line": 2,
@@ -762,8 +762,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 140,
-      "end": 146,
+      "start": 138,
+      "end": 144,
       "loc": {
         "start": {
           "line": 3,
@@ -787,8 +787,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 147,
-      "end": 148,
+      "start": 145,
+      "end": 146,
       "loc": {
         "start": {
           "line": 3,
@@ -813,8 +813,8 @@
         "binop": null
       },
       "value": "SMAASearchImageData",
-      "start": 149,
-      "end": 168,
+      "start": 147,
+      "end": 166,
       "loc": {
         "start": {
           "line": 3,
@@ -838,8 +838,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 169,
-      "end": 170,
+      "start": 167,
+      "end": 168,
       "loc": {
         "start": {
           "line": 3,
@@ -864,8 +864,8 @@
         "binop": null
       },
       "value": "from",
-      "start": 171,
-      "end": 175,
+      "start": 169,
+      "end": 173,
       "loc": {
         "start": {
           "line": 3,
@@ -891,8 +891,8 @@
         "updateContext": null
       },
       "value": "./smaa/utils/SMAASearchImageData.js",
-      "start": 176,
-      "end": 213,
+      "start": 174,
+      "end": 211,
       "loc": {
         "start": {
           "line": 3,
@@ -917,8 +917,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 213,
-      "end": 214,
+      "start": 211,
+      "end": 212,
       "loc": {
         "start": {
           "line": 3,
@@ -945,8 +945,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 216,
-      "end": 222,
+      "start": 213,
+      "end": 219,
       "loc": {
         "start": {
           "line": 4,
@@ -970,8 +970,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 223,
-      "end": 224,
+      "start": 220,
+      "end": 221,
       "loc": {
         "start": {
           "line": 4,
@@ -996,8 +996,8 @@
         "binop": null
       },
       "value": "RawImageData",
-      "start": 225,
-      "end": 237,
+      "start": 222,
+      "end": 234,
       "loc": {
         "start": {
           "line": 4,
@@ -1021,8 +1021,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 238,
-      "end": 239,
+      "start": 235,
+      "end": 236,
       "loc": {
         "start": {
           "line": 4,
@@ -1047,8 +1047,8 @@
         "binop": null
       },
       "value": "from",
-      "start": 240,
-      "end": 244,
+      "start": 237,
+      "end": 241,
       "loc": {
         "start": {
           "line": 4,
@@ -1074,8 +1074,8 @@
         "updateContext": null
       },
       "value": "./RawImageData.js",
-      "start": 245,
-      "end": 264,
+      "start": 242,
+      "end": 261,
       "loc": {
         "start": {
           "line": 4,
@@ -1100,8 +1100,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 264,
-      "end": 265,
+      "start": 261,
+      "end": 262,
       "loc": {
         "start": {
           "line": 4,
@@ -1126,8 +1126,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 267,
-      "end": 267,
+      "start": 263,
+      "end": 263,
       "loc": {
         "start": {
           "line": 5,

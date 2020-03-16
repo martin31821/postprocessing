@@ -1,5 +1,5 @@
 /**
- * postprocessing v6.12.2 build Sat Mar 07 2020
+ * postprocessing v6.12.2 build Mon Mar 16 2020
  * https://github.com/vanruesc/postprocessing
  * Copyright 2020 Raoul van Rüschen
  * @license Zlib
@@ -2710,6 +2710,8 @@
           depthBuffer = _ref5$depthBuffer === void 0 ? true : _ref5$depthBuffer,
           _ref5$stencilBuffer = _ref5.stencilBuffer,
           stencilBuffer = _ref5$stencilBuffer === void 0 ? false : _ref5$stencilBuffer,
+          _ref5$multisample = _ref5.multisample,
+          multisample = _ref5$multisample === void 0 ? false : _ref5$multisample,
           frameBufferType = _ref5.frameBufferType;
 
       _classCallCheck(this, EffectComposer);
@@ -2720,7 +2722,7 @@
 
       if (this.renderer !== null) {
         this.renderer.autoClear = false;
-        this.inputBuffer = this.createBuffer(depthBuffer, stencilBuffer, frameBufferType);
+        this.inputBuffer = this.createBuffer(depthBuffer, stencilBuffer, frameBufferType, multisample);
         this.outputBuffer = this.inputBuffer.clone();
         this.enableExtensions();
       }
@@ -2794,17 +2796,18 @@
       }
     }, {
       key: "createBuffer",
-      value: function createBuffer(depthBuffer, stencilBuffer, type) {
-        var drawingBufferSize = this.renderer.getDrawingBufferSize(new three.Vector2());
+      value: function createBuffer(depthBuffer, stencilBuffer, type, multisample) {
+        var size = this.renderer.getDrawingBufferSize(new three.Vector2());
         var alpha = this.renderer.getContext().getContextAttributes().alpha;
-        var renderTarget = new three.WebGLRenderTarget(drawingBufferSize.width, drawingBufferSize.height, {
+        var options = {
           format: alpha || type !== three.UnsignedByteType ? three.RGBAFormat : three.RGBFormat,
           minFilter: three.LinearFilter,
           magFilter: three.LinearFilter,
           stencilBuffer: stencilBuffer,
           depthBuffer: depthBuffer,
           type: type
-        });
+        };
+        var renderTarget = multisample ? new three.WebGLMultisampleRenderTarget(size.width, size.height, options) : new three.WebGLRenderTarget(size.width, size.height, options);
         renderTarget.texture.name = "EffectComposer.Buffer";
         renderTarget.texture.generateMipmaps = false;
         return renderTarget;
